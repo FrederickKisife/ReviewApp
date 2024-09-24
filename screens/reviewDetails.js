@@ -1,13 +1,11 @@
+import { globalStyles } from "../styles/global";
+import { globalStyles } from "../styles/global";
+
 export default function ReviewDetails(){
     return(
-        <View style={styles.container}>
-            <Text>Review Details Screen</Text>
+        <View style={globalStyles.container}>
+            <Text style={globalStyles.titleText}>Review Details Screen</Text>
         </View>
     )
 }
 
-const styles = StyleSheet.create({
-    constainer: {
-        padding: 24,
-    }
-})
